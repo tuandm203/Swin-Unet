@@ -20,7 +20,7 @@ fi
 if [ $data_dir ]; then
     DATA_DIR=$data_dir
 else
-    DATA_DIR='datasets/Synapse'
+    DATA_DIR='data/Synapse/test_vol_h5'
 fi
 
 if [ $learning_rate ]; then
@@ -42,4 +42,4 @@ else
 fi
 
 echo "start test model"
-python test.py --dataset Synapse --cfg $CFG --root_path $DATA_DIR --max_epochs $EPOCH_TIME --output_dir $OUT_DIR --img_size $IMG_SIZE --base_lr $LEARNING_RATE --batch_size $BATCH_SIZE
+python test.py --dataset Synapse --num_classes 9 --n_class 9 --cfg $CFG --root_path $DATA_DIR --max_epochs $EPOCH_TIME --output_dir $OUT_DIR --img_size $IMG_SIZE --base_lr $LEARNING_RATE --batch_size $BATCH_SIZE --is_savenii
