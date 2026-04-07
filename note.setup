@@ -1,4 +1,6 @@
  apt install git
  apt install unzip
 
+ 
+
  unzip -q /root/Swin-Unet/data.zip -d /root/Swin-Unet/Swin-Unet/
