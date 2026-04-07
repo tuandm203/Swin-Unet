@@ -67,3 +67,4 @@
 [09:09:08.789] idx 1 case case0022 mean_dice 0.883716 mean_hd95 9.014220
 [09:11:38.096] idx 2 case case0038 mean_dice 0.781889 mean_hd95 7.556184
 [09:16:36.710] idx 3 case case0036 mean_dice 0.833383 mean_hd95 14.181743
+[09:20:28.288] idx 4 case case0032 mean_dice 0.818612 mean_hd95 7.193722
