@@ -5,7 +5,7 @@ import numpy as np
 import torch
 import torch.backends.cudnn as cudnn
 from networks.vision_transformer import SwinUnet as ViT_seg
-from trainer import trainer_synapse
+from trainer_v2 import trainer_synapse_v2
 from config import get_config
 
 parser = argparse.ArgumentParser()
@@ -98,7 +98,7 @@ if __name__ == "__main__":
     net.load_from(config)
 
     # trainer = {'Synapse': trainer_synapse}
-    trainer_synapse(args, net, args.output_dir)
+    trainer_synapse_v2(args, net, args.output_dir)
 
 
 # python train.py --output_dir ./model_out/datasets --dataset datasets --img_size 224 --batch_size 32 --cfg configs/swin_tiny_patch4_window7_224_lite.yaml --root_path /media/aicvi/11111bdb-a0c7-4342-9791-36af7eb70fc0/NNUNET_OUTPUT/nnunet_preprocessed/Dataset001_mm/nnUNetPlans_2d_split
