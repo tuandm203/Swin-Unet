@@ -57,3 +57,13 @@
 [10:47:34.818] Mean class 7 mean_dice 0.881378 mean_hd95 42.444565
 [10:47:34.818] Mean class 8 mean_dice 0.769854 mean_hd95 16.260074
 [10:47:34.818] Testing performance in best val model: mean_dice : 0.790826 mean_hd95 : 26.161988
+[09:02:28.127] Namespace(root_path='data/Synapse/test_vol_h5', dataset='Synapse', num_classes=9, list_dir='./lists/Synapse', output_dir='./model_out', max_iterations=30000, max_epochs=150, batch_size=24, img_size=224, is_savenii=True, test_save_dir='../predictions', deterministic=1, base_lr=0.05, seed=1234, cfg='configs/swin_tiny_patch4_window7_224_lite.yaml', opts=None, zip=False, cache_mode='part', resume=None, accumulation_steps=None, use_checkpoint=False, amp_opt_level='O1', tag=None, eval=False, throughput=False, n_class=9, split_name='test', volume_path='data/Synapse/test_vol_h5', z_spacing=1, is_pretrain=True)
+[09:02:28.128] best_model.pth
+[09:02:28.128] 12 test iterations per epoch
+[09:03:05.202] Namespace(root_path='/root/data/Synapse/test_vol_h5', dataset='Synapse', num_classes=9, list_dir='./lists/Synapse', output_dir='./model_out', max_iterations=30000, max_epochs=150, batch_size=24, img_size=224, is_savenii=True, test_save_dir='../predictions', deterministic=1, base_lr=0.05, seed=1234, cfg='configs/swin_tiny_patch4_window7_224_lite.yaml', opts=None, zip=False, cache_mode='part', resume=None, accumulation_steps=None, use_checkpoint=False, amp_opt_level='O1', tag=None, eval=False, throughput=False, n_class=9, split_name='test', volume_path='/root/data/Synapse/test_vol_h5', z_spacing=1, is_pretrain=True)
+[09:03:05.202] best_model.pth
+[09:03:05.203] 12 test iterations per epoch
+[09:06:55.892] idx 0 case case0008 mean_dice 0.577772 mean_hd95 20.170533
+[09:09:08.789] idx 1 case case0022 mean_dice 0.883716 mean_hd95 9.014220
+[09:11:38.096] idx 2 case case0038 mean_dice 0.781889 mean_hd95 7.556184
+[09:16:36.710] idx 3 case case0036 mean_dice 0.833383 mean_hd95 14.181743

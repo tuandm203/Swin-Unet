@@ -8,7 +8,7 @@ fi
 if [ $out_dir ]; then
     OUT_DIR=$out_dir
 else
-    OUT_DIR='./model_out'
+    OUT_DIR='./model_out_v2'
 fi
 
 if [ $cfg ]; then

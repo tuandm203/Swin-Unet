@@ -20,7 +20,7 @@ fi
 if [ $data_dir ]; then
     DATA_DIR=$data_dir
 else
-    DATA_DIR='data/Synapse'
+    DATA_DIR='/root/data/Synapse'
 fi
 
 if [ $learning_rate ]; then
@@ -39,6 +39,7 @@ if [ $batch_size ]; then
     BATCH_SIZE=$batch_size
 else
     BATCH_SIZE=24
+    #BATCH_SIZE=48
 fi
 
 echo "start train model"
